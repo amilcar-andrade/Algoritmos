@@ -4,11 +4,11 @@
 def pivote(x):
 	izq = []
 	derecha = []
-		for i in range(0,len(a)):
-			if i< len(a)/2:
-				izq.append(a[i])
-			else:
-				derecha.append(a[i])
+	for i in range(0,len(a)):
+		if i< len(a)/2:
+			izq.append(a[i])
+		else:
+			derecha.append(a[i])
 		        
 	if len(derecha) <= 1:
 		return derecha
