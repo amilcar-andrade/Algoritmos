@@ -21,8 +21,8 @@ def pivote(x):
         			derecha[i], derecha[j] = derecha[j], derecha[i]
     			else:
         			j=j+1
-					derecha.insert(i+1,pivot)
-					del derecha[0]
+			derecha.insert(i+1,pivot)
+			del derecha[0]
 	else:
 		pivot = izq[0]
 		i=0
@@ -34,8 +34,8 @@ def pivote(x):
 	        		izq[i], izq[j] = izq[j], izq[i]
 	    		else:
 	        		j=j+1
-					izq.insert(i+1,pivot)
-					del izq[0]
+			izq.insert(i+1,pivot)
+			del izq[0]
 	
 	final = izq + derecha
 	return final
