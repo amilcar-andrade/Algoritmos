@@ -1,20 +1,17 @@
-
-
-
 def pivote(x):
+	if len(x) <= 1:
+		return x
 	izq = []
 	derecha = []
+	final =[]
 	for i in range(0,len(a)):
 		if i< len(a)/2:
 			izq.append(a[i])
 		else:
 			derecha.append(a[i])
 		        
-	if len(derecha) <= 1:
-		return derecha
-	elif len(izq) <= 1:
-		return izq
-	elif len(derecha) > 0:
+	if 
+	 	len(derecha) > 0:
 		pivot = derecha[0]
 		i=0
 		j=0
@@ -42,7 +39,7 @@ def pivote(x):
 					del izq[0]
 	
 	final = izq + derecha
-	return izq
+	return final
 		
 		
 
