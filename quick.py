@@ -10,8 +10,7 @@ def pivote(x):
 		else:
 			derecha.append(a[i])
 		        
-	if 
-	 	len(derecha) > 0:
+	if 	len(derecha) > 0:
 		pivot = derecha[0]
 		i=0
 		j=0
